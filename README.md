@@ -8,5 +8,16 @@ Google Fitの豊富な運動データを活用して、より豊かな健康管�
 ## アーキテクチャ
 ![GoogleFitNotionIntegration Architecture](./docs/architecture.png)
 
-## 使い方
+## セットアップ方法
+```bash
+python auth.py
+```
+
+```bash
+export NOTION_SECRET=secret_xxxxxxxxxx
+export DATABASE_ID=xxxxxxxxxxxx
+export GCP_PROJECT=xxxxxxx
+./setup.sh
+./deploy.sh
+```
 
